@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Signin from "./pages/Signin"
-import SignOut from "./pages/SignOut"
+import SignUp from "./pages/SignUp"
 import About from "./pages/About"
 import Home from "./pages/Home"
 import Profile from "./pages/Profile"
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/sign-in" element={<Signin/>} />
-          <Route path="/sign-out" element={<SignOut/>} />
+          <Route path="/sign-up" element={<SignUp/>} />
           <Route path="/profile" element={<Profile/>} />
         </Routes>
       </BrowserRouter>
